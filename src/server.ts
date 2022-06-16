@@ -1,15 +1,13 @@
 import app from "./app";
+import dotenv from "dotenv";
 
-/**
- * Start Express server.
- */
-const server = app.listen(app.get("port"), () => {
-  console.log(
-    "  App is running at http://localhost:%d in %s mode",
-    app.get("port"),
-    app.get("env")
-  );
-  console.log("  Press CTRL-C to stop\n");
-});
+dotenv.config();
+
+import connectDB from "../db/mongoDB" 
+import { config } from "../config/config"
+
+connectDB(config.dbConfig)
+
+const server = app.listen(config.appConfig.port, () => { console.log(`[DIAN-services] listen on ${config.appConfig.port}`)})
 
 export default server;

@@ -1,19 +1,15 @@
 import express from "express";
-import path from "path";
+import bodyParser from "body-parser";
 
-import { loadApiEndpoints } from "./controllers/api";
+import { loadApiEndpoints } from "./routes/api";
 
 // Create Express server
 const app = express();
 
 // Express configuration
 app.set("port", process.env.PORT || 3000);
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.use(
-  express.static(path.join(__dirname, "../public"), { maxAge: 31557600000 })
-);
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 loadApiEndpoints(app);
 

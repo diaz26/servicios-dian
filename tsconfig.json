@@ -8,7 +8,9 @@
       "moduleResolution": "node",
       "sourceMap": true,
       "outDir": "dist",
-      "resolveJsonModule": true
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false
     },
     "include": [
       "src/**/*"

@@ -1,0 +1,327 @@
+{
+    "Periodo": {
+        "FechaGen": "2022-06-30",
+        "TiempoLaborado": 30,
+        "FechaLiquidacionFin": "2022-06-01",
+        "FechaLiquidacionInicio": "2022-06-30",
+        "FechaRetiro": null,
+        "FechaIngreso": null
+    },
+    "Novedad": {
+        "CUNENov": null
+    },
+    "NumeroSecuenciaXML": {
+        "Numero": null,
+        "Consecutivo": null,
+        "Prefijo": null,
+        "CodigoTrabajador": null
+    },
+    "LugarGeneracionXML": {
+        "Idioma": null,
+        "MunicipioCiudad": null,
+        "DepartamentoEstado": null,
+        "Pais": null
+    },
+    "ProveedorXML": {
+        "SoftwareSC": null,
+        "SoftwareID": null,
+        "DV": null,
+        "NIT": null,
+        "OtrosNombres": null,
+        "PrimerNombre": null,
+        "SegundoApellido": null,
+        "PrimerApellido": null,
+        "RazonSocial": null
+    },
+    "CodigoQR": null,
+    "InformacionGeneral": {
+        "FechaGen": "9999-12-31",
+        "TRM": "",
+        "TipoMoneda": "",
+        "PeriodoNomina": "",
+        "HoraGen": "00:00:00",
+        "EncripCUNE": "",
+        "CUNE": "",
+        "TipoXML": "",
+        "Ambiente": "",
+        "Version": ""
+    },
+    "Notas": "",
+    "Empleador": {
+        "MunicipioCiudad": null,
+        "DepartamentoEstado": null,
+        "Pais": null,
+        "DV": null,
+        "NIT": null,
+        "OtrosNombres": null,
+        "PrimerNombre": null,
+        "SegundoApellido": null,
+        "PrimerApellido": null,
+        "RazonSocial": null,
+        "Direccion": null
+    },
+    "Trabajador": {
+        "CodigoTrabajador": null,
+        "OtrosNombres": null,
+        "PrimerNombre": null,
+        "SegundoApellido": null,
+        "PrimerApellido": null,
+        "Sueldo": null,
+        "TipoContrato": null,
+        "SalarioIntegral": null,
+        "LugarTrabajoDireccion": null,
+        "LugarTrabajoMunicipioCiudad": null,
+        "LugarTrabajoDepartamentoEstado": null,
+        "LugarTrabajoPais": null,
+        "NumeroDocumento": null,
+        "TipoDocumento": null,
+        "AltoRiesgoPension": null,
+        "SubTipoTrabajador": null,
+        "TipoTrabajador": null
+    },
+    "Pago": {
+        "NumeroCuenta": null,
+        "TipoCuenta": null,
+        "Banco": null,
+        "Metodo": null,
+        "Forma": null
+    },
+    "FechasPagos": {
+        "FechaPago": "yyyy-mm-dd"
+    },
+    "Devengados": {
+        "Basico": {
+            "SueldoTrabajado": null,
+            "DiasTrabajados": null
+        },
+        "Transporte": {
+            "ViaticoManutAlojNS": null,
+            "ViaticoManutAlojS": null,
+            "AuxilioTransporte": null
+        },
+        "HEDs": {
+            "HED": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HENs": {
+            "HEN": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HRNs": {
+            "HRN": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HEDDFs": {
+            "HEDDF": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HRDDFs": {
+            "HRDDF": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HENDFs": {
+            "HENDF": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "HRNDFs": {
+            "HRNDF": {
+                "Pago": "0.00",
+                "Porcentaje": "0.00",
+                "Cantidad": "0",
+                "HoraFin": "9999-12-31T00:00:00",
+                "HoraInicio": "9999-12-31T00:00:00"
+            }
+        },
+        "Vacaciones": {
+            "VacacionesComunes": {
+                "Pago": "0.00",
+                "Cantidad": "0",
+                "FechaFin": "9999-12-31",
+                "FechaInicio": "9999-12-31"
+            },
+            "VacacionesCompensadas": {
+                "Pago":"0.00",
+                "Cantidad":"0"
+            }
+        },
+        "Primas": {
+            "Pago": "0.00",
+            "Cantidad": "0",
+            "PagoNS": "0.00"
+        },
+        "Cesantias": {
+            "Pago": "0",
+            "Porcentaje": "0.00",
+            "PagoIntereses": "0.00"
+        },
+        "Incapacidades": {
+            "Incapacidad": {
+                "Pago": "0.00",
+                "Cantidad": "0",
+                "FechaFin": "9999-12-31",
+                "FechaInicio": "9999-12-31",
+                "Tipo": "0"
+            }
+        },
+        "Licencias": {
+            "LicenciaMP": {
+                "Pago": "0.00" ,
+                "Cantidad": "0" ,
+                "FechaFin": "9999-12-31" ,
+                "FechaInicio": "9999-12-31"
+            },
+            "LicenciaR": {
+                "Pago": "0.00",
+                "Cantidad": "0",
+                "FechaFin": "9999-12-31",
+                "FechaInicio": "9999-12-31"
+            },
+            "LicenciaNR": {
+                "Cantidad": "0",
+                "FechaFin": "9999-12-31",
+                "FechaInicio": "9999-12-31"
+            }
+        },
+        "Bonificaciones": {
+            "Bonificacion": {
+                "BonificacionNS": "0.00",
+                "BonificacionS": "0.00"
+            }
+        },
+        "Auxilios": {
+            "Auxilio": {
+                "AuxilioNS": "0.00", 
+                "AuxilioS": "0.00"
+            }
+        },
+        "HuelgasLegales": {
+            "HuelgaLegal": {
+                "Cantidad": "0", 
+                "FechaFin": "9999-12-31", 
+                "FechaInicio": "9999-12-31"
+            }
+        },
+        "OtrosConceptos": {
+            "OtroConcepto": {
+                "ConceptoNS": "0.00", 
+                "ConceptoS": "0.00", 
+                "DescripcionConcepto": "A"
+            }
+        },
+        "Compensaciones": {
+            "Compensacion": {
+                "CompensacionE": "0.00", 
+                "CompensacionO": "0.00"
+            }
+        },
+        "BonoEPCTVs": {
+            "BonoEPCTV": {
+                "PagoNS": "0.00", 
+                "PagoAlimentacionNS": "0.00", 
+                "PagoAlimentacionS": "0.00", 
+                "PagoS": "0.00"
+            }
+        },
+        "Comisiones": {
+            "Comision": "0"
+        },
+        "PagosTerceros": {
+            "PagoTercero": "0"
+        },
+        "Anticipos": {
+            "Anticipo": "0"
+        },
+        "Dotacion": "0.0",
+        "ApoyoSost": "0.0",
+        "Teletrabajo": "0.0",
+        "BonifRetiro": "0.0",
+        "Indemnizacion": "0.0",
+        "Reintegro": "0.0"
+    },
+    "Deducciones": {
+        "Salud": {
+            "Porcentaje": "0.00",
+            "Deduccion": "0.00"
+        },
+        "FondoPension": {
+            "Porcentaje": "0.00",
+            "Deduccion": "0.00"
+        },
+        "FondoSP": {
+            "Porcentaje": "0.00",
+            "Deduccion": "0.00", 
+            "DeduccionSub": "0.00",
+            "PorcentajeSub": "0.00"
+        },
+        "Sindicatos": {
+            "Sindicato": {
+                "Porcentaje":"0.00", 
+                "Deduccion": "0.00"
+            }
+        },
+        "Sanciones": {
+            "Sancion": {
+                "SancionPriv":"0.00", 
+                "SancionPublic": "0.00"
+            }
+        },
+        "Libranzas": {
+            "Libranza": {
+                "Deduccion":"0.00", 
+                "Descripcion": ""
+            }
+        },
+        "PagosTerceros": {
+           "PagoTercero": "0.0"
+        },
+        "Anticipos": {
+           "Anticipo": "0.0"
+        },
+        "OtrasDeducciones": {
+           "OtraDeduccion": "0.0"
+        },
+        "PensionVoluntaria": "0.0",
+        "RetencionFuente": "0.0",
+        "AFC": "0.0",
+        "Cooperativa": "0.0",
+        "EmbargoFiscal": "0.0",
+        "PlanComplementarios": "0.0",
+        "Educacion": "0.0",
+        "Reintegro": "0.0",
+        "Deuda": "0.0"
+    },
+    "Redondeo": "0,0",
+    "DevengadosTotal": "0,0",
+    "DeduccionesTotal": "0,0",
+    "ComprobanteTotal": "0,0"
+}
