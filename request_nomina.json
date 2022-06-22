@@ -1,327 +1,106 @@
 {
-    "Periodo": {
-        "FechaGen": "2022-06-30",
-        "TiempoLaborado": 30,
-        "FechaLiquidacionFin": "2022-06-01",
-        "FechaLiquidacionInicio": "2022-06-30",
-        "FechaRetiro": null,
-        "FechaIngreso": null
-    },
-    "Novedad": {
-        "CUNENov": null
-    },
-    "NumeroSecuenciaXML": {
-        "Numero": null,
-        "Consecutivo": null,
-        "Prefijo": null,
-        "CodigoTrabajador": null
-    },
-    "LugarGeneracionXML": {
-        "Idioma": null,
-        "MunicipioCiudad": null,
-        "DepartamentoEstado": null,
-        "Pais": null
-    },
-    "ProveedorXML": {
-        "SoftwareSC": null,
-        "SoftwareID": null,
-        "DV": null,
-        "NIT": null,
-        "OtrosNombres": null,
-        "PrimerNombre": null,
-        "SegundoApellido": null,
-        "PrimerApellido": null,
-        "RazonSocial": null
-    },
-    "CodigoQR": null,
-    "InformacionGeneral": {
-        "FechaGen": "9999-12-31",
-        "TRM": "",
-        "TipoMoneda": "",
-        "PeriodoNomina": "",
-        "HoraGen": "00:00:00",
-        "EncripCUNE": "",
-        "CUNE": "",
-        "TipoXML": "",
-        "Ambiente": "",
-        "Version": ""
-    },
-    "Notas": "",
-    "Empleador": {
-        "MunicipioCiudad": null,
-        "DepartamentoEstado": null,
-        "Pais": null,
-        "DV": null,
-        "NIT": null,
-        "OtrosNombres": null,
-        "PrimerNombre": null,
-        "SegundoApellido": null,
-        "PrimerApellido": null,
-        "RazonSocial": null,
-        "Direccion": null
-    },
-    "Trabajador": {
-        "CodigoTrabajador": null,
-        "OtrosNombres": null,
-        "PrimerNombre": null,
-        "SegundoApellido": null,
-        "PrimerApellido": null,
-        "Sueldo": null,
-        "TipoContrato": null,
-        "SalarioIntegral": null,
-        "LugarTrabajoDireccion": null,
-        "LugarTrabajoMunicipioCiudad": null,
-        "LugarTrabajoDepartamentoEstado": null,
-        "LugarTrabajoPais": null,
-        "NumeroDocumento": null,
-        "TipoDocumento": null,
-        "AltoRiesgoPension": null,
-        "SubTipoTrabajador": null,
-        "TipoTrabajador": null
-    },
-    "Pago": {
-        "NumeroCuenta": null,
-        "TipoCuenta": null,
-        "Banco": null,
-        "Metodo": null,
-        "Forma": null
-    },
-    "FechasPagos": {
-        "FechaPago": "yyyy-mm-dd"
-    },
-    "Devengados": {
-        "Basico": {
-            "SueldoTrabajado": null,
-            "DiasTrabajados": null
-        },
-        "Transporte": {
-            "ViaticoManutAlojNS": null,
-            "ViaticoManutAlojS": null,
-            "AuxilioTransporte": null
-        },
-        "HEDs": {
-            "HED": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HENs": {
-            "HEN": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HRNs": {
-            "HRN": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HEDDFs": {
-            "HEDDF": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HRDDFs": {
-            "HRDDF": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HENDFs": {
-            "HENDF": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "HRNDFs": {
-            "HRNDF": {
-                "Pago": "0.00",
-                "Porcentaje": "0.00",
-                "Cantidad": "0",
-                "HoraFin": "9999-12-31T00:00:00",
-                "HoraInicio": "9999-12-31T00:00:00"
-            }
-        },
-        "Vacaciones": {
-            "VacacionesComunes": {
-                "Pago": "0.00",
-                "Cantidad": "0",
-                "FechaFin": "9999-12-31",
-                "FechaInicio": "9999-12-31"
-            },
-            "VacacionesCompensadas": {
-                "Pago":"0.00",
-                "Cantidad":"0"
-            }
-        },
-        "Primas": {
-            "Pago": "0.00",
-            "Cantidad": "0",
-            "PagoNS": "0.00"
-        },
-        "Cesantias": {
-            "Pago": "0",
-            "Porcentaje": "0.00",
-            "PagoIntereses": "0.00"
-        },
-        "Incapacidades": {
-            "Incapacidad": {
-                "Pago": "0.00",
-                "Cantidad": "0",
-                "FechaFin": "9999-12-31",
-                "FechaInicio": "9999-12-31",
-                "Tipo": "0"
-            }
-        },
-        "Licencias": {
-            "LicenciaMP": {
-                "Pago": "0.00" ,
-                "Cantidad": "0" ,
-                "FechaFin": "9999-12-31" ,
-                "FechaInicio": "9999-12-31"
-            },
-            "LicenciaR": {
-                "Pago": "0.00",
-                "Cantidad": "0",
-                "FechaFin": "9999-12-31",
-                "FechaInicio": "9999-12-31"
-            },
-            "LicenciaNR": {
-                "Cantidad": "0",
-                "FechaFin": "9999-12-31",
-                "FechaInicio": "9999-12-31"
-            }
-        },
-        "Bonificaciones": {
-            "Bonificacion": {
-                "BonificacionNS": "0.00",
-                "BonificacionS": "0.00"
-            }
-        },
-        "Auxilios": {
-            "Auxilio": {
-                "AuxilioNS": "0.00", 
-                "AuxilioS": "0.00"
-            }
-        },
-        "HuelgasLegales": {
-            "HuelgaLegal": {
-                "Cantidad": "0", 
-                "FechaFin": "9999-12-31", 
-                "FechaInicio": "9999-12-31"
-            }
-        },
-        "OtrosConceptos": {
-            "OtroConcepto": {
-                "ConceptoNS": "0.00", 
-                "ConceptoS": "0.00", 
-                "DescripcionConcepto": "A"
-            }
-        },
-        "Compensaciones": {
-            "Compensacion": {
-                "CompensacionE": "0.00", 
-                "CompensacionO": "0.00"
-            }
-        },
-        "BonoEPCTVs": {
-            "BonoEPCTV": {
-                "PagoNS": "0.00", 
-                "PagoAlimentacionNS": "0.00", 
-                "PagoAlimentacionS": "0.00", 
-                "PagoS": "0.00"
-            }
-        },
-        "Comisiones": {
-            "Comision": "0"
-        },
-        "PagosTerceros": {
-            "PagoTercero": "0"
-        },
-        "Anticipos": {
-            "Anticipo": "0"
-        },
-        "Dotacion": "0.0",
-        "ApoyoSost": "0.0",
-        "Teletrabajo": "0.0",
-        "BonifRetiro": "0.0",
-        "Indemnizacion": "0.0",
-        "Reintegro": "0.0"
-    },
-    "Deducciones": {
-        "Salud": {
-            "Porcentaje": "0.00",
-            "Deduccion": "0.00"
-        },
-        "FondoPension": {
-            "Porcentaje": "0.00",
-            "Deduccion": "0.00"
-        },
-        "FondoSP": {
-            "Porcentaje": "0.00",
-            "Deduccion": "0.00", 
-            "DeduccionSub": "0.00",
-            "PorcentajeSub": "0.00"
-        },
-        "Sindicatos": {
-            "Sindicato": {
-                "Porcentaje":"0.00", 
-                "Deduccion": "0.00"
-            }
-        },
-        "Sanciones": {
-            "Sancion": {
-                "SancionPriv":"0.00", 
-                "SancionPublic": "0.00"
-            }
-        },
-        "Libranzas": {
-            "Libranza": {
-                "Deduccion":"0.00", 
-                "Descripcion": ""
-            }
-        },
-        "PagosTerceros": {
-           "PagoTercero": "0.0"
-        },
-        "Anticipos": {
-           "Anticipo": "0.0"
-        },
-        "OtrasDeducciones": {
-           "OtraDeduccion": "0.0"
-        },
-        "PensionVoluntaria": "0.0",
-        "RetencionFuente": "0.0",
-        "AFC": "0.0",
-        "Cooperativa": "0.0",
-        "EmbargoFiscal": "0.0",
-        "PlanComplementarios": "0.0",
-        "Educacion": "0.0",
-        "Reintegro": "0.0",
-        "Deuda": "0.0"
-    },
-    "Redondeo": "0,0",
-    "DevengadosTotal": "0,0",
-    "DeduccionesTotal": "0,0",
-    "ComprobanteTotal": "0,0"
+	"data": {
+		"Periodo": {
+			"FechaGen": "2022-06-16",
+			"TiempoLaborado": 180,
+			"FechaLiquidacionFin": "2022-06-01",
+			"FechaLiquidacionInicio": "2022-06-30",
+			"FechaRetiro": null,
+			"FechaIngreso": null
+		},
+		"NumeroSecuenciaXML": {
+			"Numero": "NOM1",
+			"Consecutivo": 1,
+			"Prefijo": "NOM",
+			"CodigoTrabajador": "1-1"
+		},
+		"LugarGeneracionXML": {
+			"Pais": "CO",
+			"DepartamentoEstado": "41",
+			"MunicipioCiudad": "41001",
+			"Idioma": "es"
+		},
+		"InformacionGeneral": {
+			"FechaGen": "2022-06-16",
+			"HoraGen": "15:18:00",
+			"TRM": "1",
+			"TipoMoneda": "COP",
+			"PeriodoNomina": "5"
+		},
+		"Notas": "",
+		"Trabajador": {
+			"TipoTrabajador": "01",
+			"SubTipoTrabajador": "00",
+			"AltoRiesgoPension": false,
+			"TipoDocumento": "13",
+			"NumeroDocumento": "1003810783",
+			"LugarTrabajoPais": "CO",
+			"LugarTrabajoDepartamentoEstado": "41",
+			"LugarTrabajoMunicipioCiudad": "41001",
+			"LugarTrabajoDireccion": "Calle 71 A # 1 B 33",
+			"CodigoTrabajador": "1-1",
+			"PrimerNombre": "Jeffrey",
+			"OtrosNombres": null,
+			"PrimerApellido": "Díaz",
+			"SegundoApellido": "Aya",
+			"SalarioIntegral": false,
+			"Sueldo": "2863400",
+			"TipoContrato": "2"
+		},
+		"Pago": {
+			"NumeroCuenta": "45400024999",
+			"TipoCuenta": "Ahorros",
+			"Banco": "Bancolombia",
+			"Metodo": "14",
+			"Forma": "1"
+		},
+		"FechasPagos": {
+			"FechaPago": "2022-06-30"
+		},
+		"Devengados": {
+			"Basico": {
+				"SueldoTrabajado": "2863400",
+				"DiasTrabajados": "30"
+			},
+			"Transporte": {
+				"ViaticoManutAlojNS": null,
+				"ViaticoManutAlojS": null,
+				"AuxilioTransporte": null
+			},
+			"HEDs": {
+				"HED": {
+					"Pago": "149136.00",
+					"Porcentaje": "25.00",
+					"Cantidad": "10",
+					"HoraFin": null,
+					"HoraInicio": null
+				}
+			},
+			"Primas": {
+				"Pago": "1431700.00",
+				"Cantidad": "180"
+			},
+			"Reintegro": "200000.00"
+		},
+		"Deducciones": {
+			"Salud": {
+				"Porcentaje": "4.00",
+				"Deduccion": "120502.00"
+			},
+			"FondoPension": {
+				"Porcentaje": "4.00",
+				"Deduccion": "120502.00"
+			},
+			"Libranzas": {
+				"Libranza": {
+					"Deduccion": "450000.00",
+					"Descripcion": "Libranza Bancolombia"
+				}
+			}
+		},
+		"Redondeo": "0.00",
+		"DevengadosTotal": "4644236.00",
+		"DeduccionesTotal": "691004.00",
+		"ComprobanteTotal": "3953232.00"
+	}
 }

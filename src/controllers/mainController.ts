@@ -17,7 +17,7 @@ export default class mainController {
 
   async construirXml() {
     if (this.origen == 'nomina') {
-      this.peticion = await PeticionNominaModel.findById(this.id_peticion)
+      this.peticion = await PeticionNominaModel.findById(this.id_peticion).populate('Empresa')
       this.factory = new nominaFactory();
     } else if (this.origen == 'facturacion') {
 
@@ -25,7 +25,6 @@ export default class mainController {
 
     if (this.peticion !== null) {
       await this.factory.crearXml(this.peticion);
-      console.log('finnnnnnnnnn')
     }
   }
 

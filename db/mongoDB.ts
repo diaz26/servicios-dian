@@ -10,7 +10,7 @@ db.on('error', function (error) {
 
 const connectDB = (dbConfig: any) => {
   const uri = `mongodb://${dbConfig.host}:${dbConfig.port}/${dbConfig.DBname}`
-  mongoose.connect(uri/* , {useNewUrlParser: true, useUnifiedTopology: true} */)
+  mongoose.connect(uri)
 
 }
 
