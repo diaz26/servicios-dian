@@ -137,7 +137,7 @@ export class Deducciones {
 
 }
 
-class Deduccion {
+export class Deduccion {
 
   @prop({
     type: String,
@@ -161,7 +161,7 @@ class Deduccion {
 
 }
 
-class FondoSP {
+export class FondoSP {
 
   @prop({
     type: String,
@@ -201,7 +201,7 @@ class FondoSP {
 
 }
 
-class Sancion {
+export class Sancion {
 
   @prop({
     type: String,
@@ -225,7 +225,7 @@ class Sancion {
 
 }
 
-class Libranza {
+export class Libranza {
 
   @prop({
     type: String,

@@ -3,9 +3,11 @@ export class XmlModel {
 
     }
 
-    async firmar() {
+    async firmar(xml: string) {
+        // firma documento
     }
 
     async enviar() {
+        // api dian
     }
 }

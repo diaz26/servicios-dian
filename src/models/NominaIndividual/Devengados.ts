@@ -63,8 +63,8 @@ export class Devengados {
   @prop({ type: () => [OtroConcepto], _id: false }, PropType.ARRAY)
   OtrosConceptos: OtroConcepto[]
 
-  @prop({ type: () => [Compensaciones], _id: false }, PropType.ARRAY)
-  Compensaciones: Compensaciones[]
+  @prop({ type: () => [Compensacion], _id: false }, PropType.ARRAY)
+  Compensaciones: Compensacion[]
 
   @prop({ type: () => [BonoEPCTV], _id: false }, PropType.ARRAY)
   BonoEPCTVs: BonoEPCTV[]
@@ -262,7 +262,7 @@ export class HoraExtra {
 
 }
 
-class Vacaciones {
+export class Vacaciones {
 
   @prop({ type: () => [VacacionesComunes], _id: false }, PropType.ARRAY)
   VacacionesComunes: VacacionesComunes[]
@@ -336,7 +336,7 @@ class VacacionesCompensadas {
   Pago: string;
 }
 
-class Primas {
+export class Primas {
 
   @prop({
     type: String,
@@ -369,7 +369,7 @@ class Primas {
 
 }
 
-class Cesantias {
+export class Cesantias {
 
   @prop({
     type: String,
@@ -403,7 +403,7 @@ class Cesantias {
 
 }
 
-class Incapacidad {
+export class Incapacidad {
   @prop({
     type: String,
     validate: {
@@ -455,7 +455,7 @@ class Incapacidad {
   Pago: string;
 }
 
-class Licencias {
+export class Licencias {
 
   @prop({ type: () => [Licencia], _id: false }, PropType.ARRAY )
   LicenciaMP: Licencia[]
@@ -541,7 +541,7 @@ class LicenciaNR {
 
 }
 
-class Bonificacion {
+export class Bonificacion {
 
   @prop({
     type: String,
@@ -563,7 +563,7 @@ class Bonificacion {
 
 }
 
-class Auxilio {
+export class Auxilio {
 
   @prop({
     type: String,
@@ -585,7 +585,7 @@ class Auxilio {
 
 }
 
-class HuelgaLegal {
+export class HuelgaLegal {
 
   @prop({
     type: String,
@@ -617,7 +617,7 @@ class HuelgaLegal {
 
 }
 
-class OtroConcepto {
+export class OtroConcepto {
 
   @prop({
     type: String,
@@ -649,14 +649,7 @@ class OtroConcepto {
 
 }
 
-class Compensaciones {
-
-  @prop({ type: () => [Compensacion] })
-  Compensacion: Compensacion[]
-
-}
-
-class Compensacion {
+export class Compensacion {
 
   @prop({
     type: String,
@@ -680,7 +673,7 @@ class Compensacion {
 
 }
 
-class BonoEPCTV {
+export class BonoEPCTV {
 
   @prop({
     type: String,
